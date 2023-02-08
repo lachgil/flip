@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+  </head>
+  <body>
+    <h2>Fly Flip Game</h2>
+    <form>
+      <div>
+        <label for="betAmount">Bet Amount:</label>
+        <input type="text" id="betAmount" name="betAmount">
+      </div>
+      <div>
+        <label for="playerChoice">Your Choice:</label>
+        <select id="playerChoice" name="playerChoice">
+          <option value="0">Heads</option>
+          <option value="1">Tails</option>
+        </select>
+      </div>
+      <button id="submitButton">Submit</button>
+    </form>
+    <div id="result"></div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
